@@ -1,0 +1,28 @@
+{
+  "name": "Projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.3.0",
+    "body-parser": "^1.18.3",
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.5.6",
+    "email-templates": "^2.5.4",
+    "express": "^4.16.4",
+    "mongodb": "^3.0.8",
+    "mongoose": "^5.10.11",
+    "nodemon": "^2.0.6",
+    "pdf2json": "^1.2.0",
+    "sendgrid": "^4.7.1",
+    "tesseract.js": "^2.1.1",
+    "textract": "^2.5.0"
+  }
+}
